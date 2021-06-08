@@ -103,23 +103,23 @@ Gestionnaire de projet : ❌
 
 Intégration continue : ❌
 
-Principes SOLID : 
+Principes SOLID : ❌
 
-Proprités ACID : 
+Proprités ACID : ❌
 
-Base de donnée relationnelle : 
+Base de donnée relationnelle : ❌
 
-Base de donnée non relationnelle : 
+Base de donnée non relationnelle : ❌
 
 IDE : integrated development environment ou en français environnement de développement est l'ensemble des outils utilisé afin de développer.
 
 VCS : version control system ou en français logiciel de gestion de versions est un logiciel qui permet de stocker des fichiers en conservant la chronologies de ces fichiers ce qui permet de récupérer les versions précédentes.
 
-Lombok : 
+Lombok : Lombok est une bibliothèque Java qui se connecte automatiquement à votre éditeur et à des outils de construction et crée des outils Java. Il fournit un ensemble d’annotations utiles pour éliminer une grande quantité de code standard. La vision autour de ce projet est de réduire les répétitions de blocs de codes dans les nombreuses parties d’une application en les remplaçant par de simples annotations.
 
-Annotation : 
+Annotation : une annotation Java est une façon d'ajouter des méta-données à un code source Java. Elles peuvent être ajoutées aux classes, méthodes, attributs, paramètres, variables locales et paquets.
 
-Port informatique : 
+Port informatique : un port matériel, une prise permettant de brancher des périphériques sur un ordinateur ; un port logiciel, un système permettant aux ordinateurs de recevoir ou d'émettre des informations
 
 Endpoint : 
 
