@@ -61,13 +61,13 @@ Code dé réponse HTTP + principaux : Les codes de statut de réponse HTTP indiq
 
 Principaux :
 
->200 : succès de la requête,
->301 et 302 : redirection, respectivement permanente et temporaire,
->401 : utilisateur non authentifié,
->403 : accès refusé,
->404 : page non trouvée,
->500 et 503 : erreur serveur,
->504 : le serveur n'a pas répondu.
+- 200 : succès de la requête.
+- 301 et 302 : redirection, respectivement permanente et temporaire.
+- 401 : utilisateur non authentifié.
+- 403 : accès refusé.
+- 404 : page non trouvée.
+- 500 et 503 : erreur serveur.
+- 504 : le serveur n'a pas répondu.
 
 Spring : 
 
