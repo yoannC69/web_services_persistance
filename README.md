@@ -1,30 +1,31 @@
 # web_services_persistance
 
 ## REST
-Quelles sont les 6 contraintes
+Quelles sont les 6 contraintes : ❌
 
-Expliquer le rôle de chacune des contraintes
+Expliquer le rôle de chacune des contraintes : ❌
 
 
 ## API
 
-5 principaux éléments composant une requête Http
+5 principaux éléments composant une requête Http : ❌
 
-5 principaux verbes HTTP
+5 principaux verbes HTTP : ❌
 
 
 ## JAVA
-Rôle d'une annotation java
 
-Rôle du try catch
+Rôle d'une annotation java : ❌
 
-Pourquoi faut il fermer ses ressources en informatique (ie: fichiers, connexions ...)
+Rôle du try catch : ❌
 
-Rôle du try with ressources
+Pourquoi faut il fermer ses ressources en informatique (ie: fichiers, connexions ...) : ❌
 
-A quoi sert Lombok ?
+Rôle du try with ressources : ❌
 
-Quelles sont les annotations Lombok 
+A quoi sert Lombok ? : ❌
+
+Quelles sont les annotations Lombok  : ❌
 
 
 ## Lexique
@@ -39,13 +40,14 @@ Scalabilité horizontale : afin de répondre à un changement d'ordre de grandeu
 
 Scalabilité verticale : afin de répondre à un changement d'ordre de grandeur de la demande la scalabilité reviens a améliorer un produit pour repondre a cette demande. Exemple upgrader un serveur avec plus de ram
 
-Stateless : ❌
+Stateless : qui n'a pas d'état,
+exemple: un protocole sans état est un protocole de communication qui n'enregistre pas l'état d'une session de communication entre deux requêtes successives.
 
 URI : Uniform Resource Identifier : route permettant de mener a une ressource sur internet (l'url est une uri)
 
 URL : Uniform Resource Locator : chaîne de caractères uniforme qui permet d'identifier une ressource du World Wide Web par son emplacement et de préciser le protocole internet pour la récupérer.
 
-Représentation d'une ressource : ❌
+Représentation d'une ressource : les ressources sont des composants, matériels ou logiciels, connectés à un ordinateur. Tout composant de système interne est une ressource. Les ressources d'un système virtuel incluent les fichiers, les connexions au réseau, et les zones de mémoire.
 
 Proxy : Uniform Resource Locator : chaîne de caractères uniforme qui permet d'identifier une ressource du World Wide Web par son emplacement et de préciser le protocole internet pour la récupérer.
 
@@ -145,4 +147,4 @@ Connexion : la connexion est le fait de connecter un élément à un autre il va
 
 Commit (transaction) : le commit désignent l’enregistrement effectif d’une transaction.
 
-Mapper :
+Mapper : Établir une correspondance entre deux objets de même nature mais pas de même forme.
