@@ -31,21 +31,21 @@ Proxy : Uniform Resource Locator : chaîne de caractères uniforme qui permet d'
 
 Gateway : passerelle : dispositif permettant de relier deux réseaux informatiques de types différents, par exemple un réseau local et le réseau Internet.
 
-Http Header : 
+Http Header : L'en-tête http permet de transmettre des informations supplémentaires avec la requête. elle est constitué de son nom et de sa valeur
 
-Http version : 
+Http version : ❌
 
-Http body : 
+Http body : le body est le contenu du message. autrement dit c'est la requête ou la reponse
 
-Content-type : 
+Content-type : L'en-tête Content-Type sert à indiquer le type de la ressource (type MIME)
 
-Http méthode (verb) : 
+Http méthode (verb) : les méthodes de requête indiquent l'action que l'on souhaite réaliser sur la ressource.
 
-GET : 
+GET : la méthode GET permet de récupérer des données de la ressource
 
-PUT : 
+PUT : la méthode PUT permet de remplacé les éléments de la ressource par les éléments de la requête.
 
-DELETE : 
+DELETE : la méthode DELETE
 
 POST : 
 
