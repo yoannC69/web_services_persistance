@@ -1,13 +1,33 @@
 # web_services_persistance
 
 ## REST
+Quelles sont les 6 contraintes
+
+Expliquer le rôle de chacune des contraintes
+
 
 ## API
 
+5 principaux éléments composant une requête Http
+
+5 principaux verbes HTTP
+
+
 ## JAVA
+Rôle d'une annotation java
+
+Rôle du try catch
+
+Pourquoi faut il fermer ses ressources en informatique (ie: fichiers, connexions ...)
+
+Rôle du try with ressources
+
+A quoi sert Lombok ?
+
+Quelles sont les annotations Lombok 
+
 
 ## Lexique
-
 
 Cache : Un cache Web conserve des copies de documents transitant par son biais. Le cache peut, dans certaines conditions, répondre aux requêtes ultérieures à partir de ses copies, sans recourir au serveur Web d'origine. réduit la consommation de bande passante, la charge du serveur web, améliore la rapidité de consultation lors de l'utilisation d'un navigateur web.
 
