@@ -121,7 +121,7 @@ Annotation : une annotation Java est une façon d'ajouter des méta-données à 
 
 Port informatique : un port matériel, une prise permettant de brancher des périphériques sur un ordinateur ; un port logiciel, un système permettant aux ordinateurs de recevoir ou d'émettre des informations
 
-Endpoint : 
+Endpoint : un endpoint une extrémité d’un canal de communication. un Endpoint peut inclure une URL d’un serveur ou d’un service. Chaque Endpoint est l’emplacement à partir duquel les API peuvent accéder aux ressources dont elles ont besoin pour exécuter leur fonction.
 
 Connection Pool : 
 
