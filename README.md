@@ -45,13 +45,29 @@ GET : la méthode GET permet de récupérer des données de la ressource
 
 PUT : la méthode PUT permet de remplacé les éléments de la ressource par les éléments de la requête.
 
-DELETE : la méthode DELETE
+DELETE : la méthode DELETE supprime les éléments de la ressource indiqué dans la requête.
 
-POST : 
+POST : la méthode POST permet d'envoyer les éléments de la requête à la ressource.
 
-OPTIONS : 
+OPTIONS : la méthode OPTIONS permet de décrire les options de communications avec la ressource.
 
-Code dé réponse HTTP + principaux : 
+Code dé réponse HTTP + principaux : Les codes de statut de réponse HTTP indiquent si une requête HTTP a été exécutée avec succès ou non. Les réponses sont regroupées en cinq classes: 
+
+1. Les réponses informatives (100 - 199),
+2. Les réponses de succès (200 - 299),
+3. Les redirections (300 - 399),
+4. Les erreurs du client (400 - 499),
+5. Les erreurs du serveur (500 - 599).
+
+Principaux :
+
+>200 : succès de la requête,
+>301 et 302 : redirection, respectivement permanente et temporaire,
+>401 : utilisateur non authentifié,
+>403 : accès refusé,
+>404 : page non trouvée,
+>500 et 503 : erreur serveur,
+>504 : le serveur n'a pas répondu.
 
 Spring : 
 
