@@ -123,26 +123,26 @@ Port informatique : un port matériel, une prise permettant de brancher des pér
 
 Endpoint : un endpoint une extrémité d’un canal de communication. un Endpoint peut inclure une URL d’un serveur ou d’un service. Chaque Endpoint est l’emplacement à partir duquel les API peuvent accéder aux ressources dont elles ont besoin pour exécuter leur fonction.
 
-Connection Pool : 
+Connection Pool : un connection pool est un serveur de connexions qui ouvre un certains nombre de connexions avec le serveur de base de données.
 
-JVM : 
+JVM : La machine virtuelle Java est un appareil informatique fictif qui exécute des programmes compilés sous forme de bytecode Java.
 
-ByteCode : 
+ByteCode : le bytecode en français code en bytes est un code intermédiaire entre les instructions machines et le code source, qui n'est pas directement exécutable.
 
-Code source : 
+Code source : le code source est un texte qui présente les instructions composant un programme sous une forme lisible, telles qu'elles ont été écrites dans un langage de programmation.
 
-Compilation : 
+Compilation : la compilation est un travail réalisé par un compilateur qui consiste à transformer un code source lisible par un humain en un fichier binaire exécutable par une machine.
 
-Fichier jar : 
+Fichier jar : L’extension .jar est une abréviation de « Java Archive », cela contient la plupart du temps des fichiers et métadonnées Java que l’on envoie rassemblées et compressées
 
-API : 
+API : Application Programming Interface ou en français interface de programmation d'application, est une interface permettant à une application d'utilisé, de modifier supprimer etc.. des données dont elle aurait besoin pour fonctionner. elles rend ces données accessibles via des classes methodes fonctions etc..
 
-Statement : 
+Statement : en français déclaration, permet d'indiquer au compilateur l'existence d'une entité informatique, en spécifiant: son identifiant; son type de données; les paramètres.
 
-Chaîne de connexion à une base de donnée : 
+Chaîne de connexion à une base de donnée : Une chaîne de connexion correspond aux informations nécessaires pour que votre application puisse accéder à votre base de données, par exemple un nom de base de données, un nom d'utilisateur, un mot de passe, un port, etc.
 
-Connextion : 
+Connexion : la connexion est le fait de connecter un élément à un autre il va souvent de paire avec une authentification.
 
-Commit (transaction) : 
+Commit (transaction) : le commit désignent l’enregistrement effectif d’une transaction.
 
 Mapper :
