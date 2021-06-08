@@ -69,19 +69,19 @@ Principaux :
 - 500 et 503 : erreur serveur.
 - 504 : le serveur n'a pas répondu.
 
-Spring : 
+Spring : Spring est un framework open source pour construire et définir l'infrastructure d'une application Java
 
-JDBC : 
+JDBC : Java Database Connectivity est une interface de programmation pour les programmes utilisant la plateforme Java. Elle permet aux applications Java d'accéder par le biais d'une interface commune à des sources de données pour lesquelles il existe des pilotes JDBC.
 
-JPA : 
+JPA : Java Persistence API est une interface de programmation Java permettant aux développeurs d'organiser des données relationnelles dans des applications utilisant la plateforme Java.
 
-ORM : 
+ORM : Mapping objet-relationnel est un type de programme informatique permettant de simuler une base de données orientée objet.
 
-Maven : 
+Maven : Apache Maven est un outil de gestion et d'automatisation de production des projets logiciels Java en général et Java EE en particulier. Il est utilisé pour automatiser l'intégration continue lors d'un développement de logiciel
 
-Gestionnaire de projet : 
+Gestionnaire de projet : ❌
 
-Intégration continue : 
+Intégration continue : ❌
 
 Principes SOLID : 
 
@@ -91,9 +91,9 @@ Base de donnée relationnelle :
 
 Base de donnée non relationnelle : 
 
-IDE : 
+IDE : integrated development environment ou en français environnement de développement est l'ensemble des outils utilisé afin de développer.
 
-VCS : 
+VCS : version control system ou en français logiciel de gestion de versions est un logiciel qui permet de stocker des fichiers en conservant la chronologies de ces fichiers ce qui permet de récupérer les versions précédentes.
 
 Lombok : 
 
