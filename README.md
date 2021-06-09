@@ -1,29 +1,41 @@
 # web_services_persistance
 
 ## REST
-Quelles sont les 6 contraintes : ❌
 
-Expliquer le rôle de chacune des contraintes : ❌
+Quelles sont les 6 contraintes et Expliquer le rôle de chacune des contraintes : 
+
+1. Client-Server – Un mode de communication avec séparation de rôles entre client et serveur.
+2. Stateless Server – Les requêtes doivent contenir toutes les informations nécessaires au traitement. Il ne doit pas y avoir une notion de session côté serveur. Cette contrainte est indispensable pour rendre une API scalable.
+3. Cache – La réponse du serveur doit être cacheable côté client.
+4. Uniform interface – La méthode de communication entre client et serveur doit être uniforme avec des ressources identifiables, représentables et auto-descriptives. Autrement dit, en vocabulaire HTTP, avec une URL et une réponse contenant un body et une entête.
+5. Layered System – Le système doit permettre le rajout de couches intermédiaires (proxy server, firewall, CDN, etc …).
+6. Code-on-Demand Architecture (optionnelle) – L’architecture doit permettre d’exécuter du code côté client.
+
 
 
 ## API
 
-5 principaux éléments composant une requête Http : ❌
+5 principaux éléments composant une requête Http : Les éléments composant une requête http sont :
+- method
+- uri
+- http version
+- header
+- body
 
-5 principaux verbes HTTP : create(post), read(get), update(put), delete(delete), 
+5 principaux verbes HTTP : POST, GET, PUT, DELETE, OPTIONS
 
 
 ## JAVA
 
-Rôle d'une annotation java : ❌
+Rôle d'une annotation java : une annotation Java est une façon d'ajouter des méta-données à un code source Java. Elles peuvent être ajoutées aux classes, méthodes, attributs, paramètres, variables locales et paquets. Cela évite d'écrire ces fichiers à la main car c'est un procédé ennuyeux et sujet à erreur. Leur but est de définir des annotations couramment utilisées et ainsi d'éviter leur redéfinition pour chaque outil qui en aurait besoin.
 
-Rôle du try catch : ❌
+Rôle du try catch : L'instruction try catch regroupe des instructions à exécuter et définit une réponse si l'une de ces instructions provoque une exception.
 
 Pourquoi faut il fermer ses ressources en informatique (ie: fichiers, connexions ...) : ❌
 
 Rôle du try with ressources : ❌
 
-A quoi sert Lombok ? : ❌
+A quoi sert Lombok ? : Lombok se connecte automatiquement à votre éditeur et à des outils de construction et crée des outils Java. Il fournit un ensemble d’annotations utiles pour éliminer une grande quantité de code standard. il sert à réduire les répétitions de blocs de codes dans les nombreuses parties d’une application en les remplaçant par de simples annotations.
 
 Quelles sont les annotations Lombok  : ❌
 
