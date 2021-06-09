@@ -33,7 +33,7 @@ Rôle du try catch : L'instruction try catch regroupe des instructions à exécu
 
 Pourquoi faut il fermer ses ressources en informatique (ie: fichiers, connexions ...) : ❌
 
-Rôle du try with ressources : ❌
+Rôle du try with ressources : L'instruction try with ressources est une instruction qui déclare une ou plusieurs ressources. Une ressource est un objet qui doit être fermé une fois le programme terminé. L'instruction try with ressources garantit que chaque ressource est fermée à la fin de l'instruction.
 
 A quoi sert Lombok ? : Lombok se connecte automatiquement à votre éditeur et à des outils de construction et crée des outils Java. Il fournit un ensemble d’annotations utiles pour éliminer une grande quantité de code standard. il sert à réduire les répétitions de blocs de codes dans les nombreuses parties d’une application en les remplaçant par de simples annotations.
 
@@ -117,13 +117,27 @@ Gestionnaire de projet : ❌
 
 Intégration continue : ❌
 
-Principes SOLID : ❌
+Principes SOLID : SOLID est un acronyme mnémonique qui regroupe cinq principes de conception destinés à produire des architectures logicielles plus compréhensibles, flexibles et maintenables.
+- Responsabilité unique (Single responsibility principle)
+une classe, une fonction ou une méthode doit avoir une et une seule responsabilité
+- Ouvert/fermé (Open/closed principle)
+une entité applicative (class, fonction, module ...) doit être fermée à la modification directe mais ouverte à l'extension
+- Substitution de Liskov (Liskov substitution principle)
+une instance de type T doit pouvoir être remplacée par une instance de type G, tel que G sous-type de T, sans que cela ne modifie la cohérence du programme
+- Ségrégation des interfaces (Interface segregation principle)
+préférer plusieurs interfaces spécifiques pour chaque client plutôt qu'une seule interface générale
+- Inversion des dépendances (Dependency inversion principle)
+il faut dépendre des abstractions, pas des implémentations
 
-Proprités ACID : ❌
+Proprités ACID : les propriétés ACID (atomicité, cohérence, isolation et durabilité) sont un ensemble de propriétés qui garantissent qu'une transaction informatique est exécutée de façon fiable.
+- Atomicité : La propriété d'atomicité assure qu'une transaction se fait au complet ou pas du tout : si une partie d'une transaction ne peut être faite, il faut effacer toute trace de la transaction et remettre les données dans l'état où elles étaient avant la transaction. L'atomicité doit être respectée dans toutes situations, comme une panne d'électricité, une défaillance de l'ordinateur, ou une panne d'un disque magnétique.
+- Cohérence : La propriété de cohérence assure que chaque transaction amènera le système d'un état valide à un autre état valide. Tout changement à la base de données doit être valide selon toutes les règles définies, incluant mais non limitées aux contraintes d'intégrité, aux rollbacks en cascade, aux déclencheurs de base de données, et à toutes combinaisons d'événements.
+- Isolation : Toute transaction doit s'exécuter comme si elle était la seule sur le système. Aucune dépendance possible entre les transactions. La propriété d'isolation assure que l'exécution simultanée de transactions produit le même état que celui qui serait obtenu par l'exécution en série des transactions. Chaque transaction doit s'exécuter en isolation totale : si T1 et T2 s'exécutent simultanément, alors chacune doit demeurer indépendante de l'autre.
+- Durabilité : La propriété de durabilité assure que lorsqu'une transaction a été confirmée, elle demeure enregistrée même à la suite d'une panne d'électricité, d'une panne de l'ordinateur ou d'un autre problème. Par exemple, dans une base de données relationnelle, lorsqu'un groupe d'énoncés SQL a été exécuté, les résultats doivent être enregistrés de façon permanente, même dans le cas d'une panne immédiatement après l'exécution des énoncés.
 
-Base de donnée relationnelle : ❌
+Base de donnée relationnelle : une base de données relationnelle est une base de données où l'information est organisée dans des tableaux à deux dimensions appelés des relations ou tables. permet de mettre en relation différentes tables avec différents éléments d'une autre tables comme par exemple un produit lié a sa catégorie dans la table catégories.
 
-Base de donnée non relationnelle : ❌
+Base de donnée non relationnelle : Les bases de données non-relationnelles, ou souvent appelés no-sql fonctionne sans relations entre les tables, ce qui permet de gérer un volume important de données structurées, semi-structurées et non structurées, des itérations rapides et des mise à jour fréquentes du code. la programmation orientée objet est donc plus simple à utiliser et flexible.
 
 IDE : integrated development environment ou en français environnement de développement est l'ensemble des outils utilisé afin de développer.
 
