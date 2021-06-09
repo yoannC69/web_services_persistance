@@ -10,7 +10,7 @@ Expliquer le rôle de chacune des contraintes : ❌
 
 5 principaux éléments composant une requête Http : ❌
 
-5 principaux verbes HTTP : ❌
+5 principaux verbes HTTP : create(post), read(get), update(put), delete(delete), 
 
 
 ## JAVA
