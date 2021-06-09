@@ -31,13 +31,13 @@ Rôle d'une annotation java : une annotation Java est une façon d'ajouter des m
 
 Rôle du try catch : L'instruction try catch regroupe des instructions à exécuter et définit une réponse si l'une de ces instructions provoque une exception.
 
-Pourquoi faut il fermer ses ressources en informatique (ie: fichiers, connexions ...) : ❌
+Pourquoi faut il fermer ses ressources en informatique (ie: fichiers, connexions ...) : il faut fermer ses ressources par precautions en terme de securité afin d'empêcher l'accès a toute personne n'étant pas supposé avoir l'accès à ses ressources.
 
 Rôle du try with ressources : L'instruction try with ressources est une instruction qui déclare une ou plusieurs ressources. Une ressource est un objet qui doit être fermé une fois le programme terminé. L'instruction try with ressources garantit que chaque ressource est fermée à la fin de l'instruction.
 
 A quoi sert Lombok ? : Lombok se connecte automatiquement à votre éditeur et à des outils de construction et crée des outils Java. Il fournit un ensemble d’annotations utiles pour éliminer une grande quantité de code standard. il sert à réduire les répétitions de blocs de codes dans les nombreuses parties d’une application en les remplaçant par de simples annotations.
 
-Quelles sont les annotations Lombok  : ❌
+Quelles sont les annotations Lombok  : @Setter, @Getter, @Data, @Tostring, @EqualsAndHashCode, @NonNull, @Builder, @Delgate
 
 
 ## Lexique
@@ -67,7 +67,7 @@ Gateway : passerelle : dispositif permettant de relier deux réseaux informatiqu
 
 Http Header : L'en-tête http permet de transmettre des informations supplémentaires avec la requête. elle est constitué de son nom et de sa valeur
 
-Http version : ❌
+Http version : permet de connaitre avec quelle version d'http notre requête est faite.
 
 Http body : le body est le contenu du message. autrement dit c'est la requête ou la reponse
 
@@ -113,9 +113,9 @@ ORM : Mapping objet-relationnel est un type de programme informatique permettant
 
 Maven : Apache Maven est un outil de gestion et d'automatisation de production des projets logiciels Java en général et Java EE en particulier. Il est utilisé pour automatiser l'intégration continue lors d'un développement de logiciel
 
-Gestionnaire de projet : ❌
+Gestionnaire de projet : La gestion de projet est l'ensemble des activités visant à organiser le bon déroulement d’un projet et à en atteindre les objectifs. le gestionnaire de projet est donc la personne en charge de ces missions.
 
-Intégration continue : ❌
+Intégration continue : L'intégration continue est un ensemble de pratiques utilisées en génie logiciel consistant à vérifier à chaque modification de code source que le résultat des modifications ne produit pas de régression dans l'application développée.
 
 Principes SOLID : SOLID est un acronyme mnémonique qui regroupe cinq principes de conception destinés à produire des architectures logicielles plus compréhensibles, flexibles et maintenables.
 - Responsabilité unique (Single responsibility principle)
